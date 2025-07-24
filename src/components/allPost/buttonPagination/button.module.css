@@ -1,0 +1,29 @@
+.Btn_pagi{
+    background-color: #444;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 9px;
+    border: 1px solid indigo;
+    transition: transform 0.2s ease;
+}
+
+.Btn_pagi:hover{
+    background-color: blueviolet;
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.Btn_pagi:active{
+    background-color: indigo;
+}
+nav.pagi{
+    margin: 0 auto;
+}
+
+.Btn_pagi_active {
+
+    background-color: blueviolet;
+}

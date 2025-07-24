@@ -1,0 +1,42 @@
+div.user{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
+    border-bottom:1px solid #444 ;
+}
+
+
+div.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+div.input::after{
+    margin-top: 20px;
+    content: '';
+    display: block;
+    width: 90%;
+    border: 1px solid #444;
+}
+
+div.input:has(input.input:focus)::after{
+    border: 1px solid rgb(47, 160, 37)
+}
+
+input.input{
+    outline: none;
+    margin-top: 20px;
+    min-height: 20px;
+    width: 80%;
+}
+
+span.user{
+    margin: 5px 0 0 0;
+}
+span.user:first-child{
+    margin: 5px 0 0 50px;
+}

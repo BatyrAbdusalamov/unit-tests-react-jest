@@ -1,0 +1,14 @@
+footer {
+    width: 100vw;  
+    background-color: #333;
+    min-height: 50px;
+    border-top: 2px solid #444;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.text{
+    margin-right: 50px;
+}
