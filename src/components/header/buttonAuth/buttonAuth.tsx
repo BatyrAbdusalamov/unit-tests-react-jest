@@ -2,8 +2,9 @@ import { useDispatch, useSelector } from "react-redux"
 import { States } from "../../../store"
 import cooks from "../../../basefunction";
 import Button from "../../simplyComponents/button/button";
-import { Link } from "react-router-dom";
 import { Page } from "../../../types";
+import { Link } from "react-router-dom";
+
 
 export default function ButtonAuth(){   
 

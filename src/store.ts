@@ -26,7 +26,7 @@ type Action = {
   JWT?:string,
   setPage?:number,
 }
-const reducer = (state = defaultState, action:Action) => {
+export const reducer = (state = defaultState, action:Action) => {
 
   switch (action.type){
     case 'Filter':

@@ -1,5 +1,4 @@
 
-import { Link } from 'react-router-dom';
 import Button from '../simplyComponents/button/button';
 import styles from './header.module.css'
 import ButtonAuth  from './buttonAuth/buttonAuth';
@@ -8,6 +7,7 @@ import { Page } from '../../types';
 import { useDispatch, useSelector } from 'react-redux';
 import { States } from '../../store';
 import cooks from '../../basefunction';
+import { Link } from 'react-router-dom';
 
 
 export default function Header() {
