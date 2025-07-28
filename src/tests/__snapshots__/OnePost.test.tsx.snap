@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test OnePost component Render test in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
