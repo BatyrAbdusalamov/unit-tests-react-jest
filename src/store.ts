@@ -12,7 +12,7 @@ export interface States{
 
 const defaultState:States = {
   filter: '',
-  JWT: cooks.getJWT(),
+  JWT: cooks.getJWT() || '',
   location: '*',
   selectedPage: 1,
   typeFilter:Filter.All,
@@ -21,25 +21,25 @@ const defaultState:States = {
 type Action = {
   type:string,
   typeFilter?:Filter,
-  buffer?:string,
+  filter?:string,
   userId?:number,
   JWT?:string,
-  setPage?:number,
+  selectedPage?:number,
+  location?: string
 }
 export const reducer = (state = defaultState, action:Action) => {
-
   switch (action.type){
     case 'Filter':
-      if (( 'buffer' in action) && (action.buffer !== undefined) && ( 'typeFilter' in action ) && (action.typeFilter !== undefined)) {
+      if (( 'filter' in action) && (action.filter !== undefined) && ( 'typeFilter' in action ) && (action.typeFilter !== undefined)) {
         state = {...state,
-          filter: action.buffer,
+          filter: action.filter,
           typeFilter:action.typeFilter
         }
       }
       return state;
     case 'SetJWT':
         state = {...state,
-          JWT: cooks.getJWT(),
+          JWT: action.JWT ?? cooks.getJWT(),
       }
       return state;
     case 'DelJwt':
@@ -52,7 +52,7 @@ export const reducer = (state = defaultState, action:Action) => {
     case 'setLocation':
       state = {
         ...state,
-        location: location.pathname,
+        location: action.location || location.pathname,
       }
       return state;
     case 'dropLocation':
@@ -62,10 +62,10 @@ export const reducer = (state = defaultState, action:Action) => {
       }
       return state;
     case 'setPage':
-      if ( ( 'setPage' in action ) && action.setPage !== undefined)
+      if ( ( 'selectedPage' in action ) && action.selectedPage !== undefined)
         state = {
           ...state,
-          selectedPage: +action.setPage,
+          selectedPage: +action.selectedPage,
         }
       return state;
     case 'dropFilter':

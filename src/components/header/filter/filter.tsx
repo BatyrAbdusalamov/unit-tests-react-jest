@@ -14,7 +14,7 @@ export default function Filter(){
         if ((selector.current)&&(inp.current))
         dispatch({
             type:'Filter',
-            buffer: inp.current.value,
+            filter: inp.current.value,
             typeFilter: selector.current.value,
         })
     }
