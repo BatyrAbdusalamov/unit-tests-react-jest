@@ -3,14 +3,14 @@ import FilterComponent from "../components/header/filter/filter"
 import { Filter as filteres } from '../types';
 import { Action } from "redux";
 import { useDispatch } from "react-redux";
-interface FilterStore { buffer: string | null, typeFilter: string | null}
+interface FilterStore { filter: string | null, typeFilter: string | null}
 jest.mock('react-redux', () => ({
     useDispatch: jest.fn(),
 }));
 describe('Test Filter component', () => {
 
     let store: FilterStore = {
-        buffer: null,
+        filter: null,
         typeFilter: null
     };
 
@@ -26,7 +26,7 @@ describe('Test Filter component', () => {
         const input = Filter.container.querySelector('input')
         expect(input).toBeDefined()
         fireEvent.change(input, { target: { value: testValue } })
-        expect(store.buffer).toBe(testValue)
+        expect(store.filter).toBe(testValue)
     })
 
     it('Test onChange select', () => {

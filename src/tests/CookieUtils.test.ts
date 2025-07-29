@@ -10,7 +10,7 @@ describe('Test Cookie Utils', () => {
         });
     });
 
-    const { setCookie, getCookie } = cooks;
+    const { setCookie, getCookie, deleteCookie, getJWT, LogIn, LogOut, getRefreshToken, setAccessToken } = cooks;
     it('Test setCookie util', () => {
         const testValue = 'tokenStr'
         const testName = 'access-token'
@@ -25,5 +25,45 @@ describe('Test Cookie Utils', () => {
         const resultValue = 'refreshTokenStr'
         document.cookie = testValue;
         expect(getCookie('refresh-token')).toBe(resultValue)
+    })
+
+    it('Test deleteCookie util', () => {
+        const setCookie = jest.fn();
+        deleteCookie.call({ setCookie },'refresh-token')
+        expect(setCookie).toBeCalledWith('refresh-token', "", { 'max-age': -1 })
+    })
+
+    it('Test getJWT util', () => {
+        const getCookie = jest.fn();
+        getJWT.call({ getCookie })
+        expect(getCookie).toBeCalledWith('access_token')
+    })
+    it('Test LogIn util', () => {
+        const setCookie = jest.fn();
+        LogIn.call({ setCookie }, 'acc-token', 'ref-token')
+        expect(setCookie).toBeCalledWith('access_token', 'acc-token', { 'max-age': 3600 })
+        expect(setCookie).toBeCalledWith('refresh_token', 'ref-token', { 'max-age': 864000 })
+    })
+
+    it('Test LogOut util', () => {
+        const setCookie = jest.fn();
+        LogOut.call({ setCookie })
+        expect(setCookie).toBeCalledWith('access_token', '', { 'max-age': -1 })
+        expect(setCookie).toBeCalledWith('refresh_token', '', { 'max-age': -1 })
+    })
+
+    it('Test getRefreshToken util', () => {
+        const getCookie = jest.fn();
+        getCookie.mockImplementationOnce(() => null)
+        getCookie.mockImplementationOnce(() => 'token')
+        expect(getRefreshToken.call({ getCookie })).not.toBeNull()
+        expect(getRefreshToken.call({ getCookie })).toBe('token')
+        expect(getCookie).toBeCalledWith('refresh_token')
+    })
+
+    it('Test setAccessToken util', () => {
+        const setCookie = jest.fn();
+        setAccessToken.call({ setCookie }, 'acc-token')
+        expect(setCookie).toBeCalledWith('access_token', 'acc-token', { 'max-age': 3600 })
     })
 })
