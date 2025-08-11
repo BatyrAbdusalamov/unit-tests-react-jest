@@ -21,19 +21,24 @@ const config: Config.InitialOptions = {
   preset: 'ts-jest',
   //testEnvironment: 'node',
   automock: true,*/
-
+  collectCoverage: true,
   roots: ['<rootDir>/src'],
   collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', '!src/**/*.d.ts'],
   setupFiles: ['react-app-polyfill/jsdom'],
   setupFilesAfterEnv: ['<rootDir>/setupTests.ts'],
-  testMatch: ['<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}', '<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}'],
+  testMatch: [
+    '<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}',
+    '<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}',
+  ],
   testEnvironment: 'jsdom',
   testRunner: '<rootDir>/node_modules/jest-circus/runner.js',
   transform: {
     '^.+\\.(js|jsx|mjs|cjs|ts|tsx)$': '<rootDir>/config/jest/babelTransform.js',
     '^.+\\.css$': '<rootDir>/config/jest/cssTransform.js',
-    '^(?!.*\\.(js|jsx|mjs|cjs|ts|tsx|css|json)$)': '<rootDir>/config/jest/fileTransform.js',
-    '.+\\.(css|styl|less|sass|scss)$': '<rootDir>/node_modules/jest-css-modules-transform',
+    '^(?!.*\\.(js|jsx|mjs|cjs|ts|tsx|css|json)$)':
+      '<rootDir>/config/jest/fileTransform.js',
+    '.+\\.(css|styl|less|sass|scss)$':
+      '<rootDir>/node_modules/jest-css-modules-transform',
   },
   transformIgnorePatterns: ['node_modules/?!(react-icons)'],
   modulePaths: ['<rootDir>/src'],
@@ -41,11 +46,36 @@ const config: Config.InitialOptions = {
     '^react-native$': 'react-native-web',
     '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
   },
-  moduleFileExtensions: ['web.js', 'js', 'web.ts', 'ts', 'web.tsx', 'tsx', 'json', 'web.jsx', 'jsx', 'node'],
+  moduleFileExtensions: [
+    'web.js',
+    'js',
+    'web.ts',
+    'ts',
+    'web.tsx',
+    'tsx',
+    'json',
+    'web.jsx',
+    'jsx',
+    'node',
+  ],
   watchPlugins: ['jest-watch-typeahead/filename', 'jest-watch-typeahead/testname'],
   resetMocks: true,
-  coveragePathIgnorePatterns: ['/node_modules/', '/.husky/', '/config/', '/coverage/', '/public/', '/nginx/'],
-  testPathIgnorePatterns: ['/node_modules/', '/.husky/', '/config/', '/coverage/', '/public/', '/nginx/'],
+  coveragePathIgnorePatterns: [
+    '/node_modules/',
+    '/.husky/',
+    '/config/',
+    '/coverage/',
+    '/public/',
+    '/nginx/',
+  ],
+  testPathIgnorePatterns: [
+    '/node_modules/',
+    '/.husky/',
+    '/config/',
+    '/coverage/',
+    '/public/',
+    '/nginx/',
+  ],
   coverageReporters: ['json-summary', 'html', 'text', 'text-summary'],
   coverageThreshold: {
     global: {

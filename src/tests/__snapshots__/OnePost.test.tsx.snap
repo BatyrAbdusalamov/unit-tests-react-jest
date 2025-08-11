@@ -1,5 +1,1561 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`OnePost component Render test correct props in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component Render test have comments prop in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component Render test have image prop in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component Render test uncorrect props in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+             
+          </span>
+          <span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      />
+      <p
+        class="post_text"
+      />
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should  1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should  test have comments prop in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render  1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render  have comments prop in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component  1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component have comments prop in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component have image prop in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component test have image prop in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component when  1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component when correct 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component when correct props 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component when correct props 2`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+             
+          </span>
+          <span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      />
+      <p
+        class="post_text"
+      />
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component when have comments prop 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component when have comments prop in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component when have image prop 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component when have image prop in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component when uncorrect props 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+             
+          </span>
+          <span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      />
+      <p
+        class="post_text"
+      />
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render component when uncorrected props 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+             
+          </span>
+          <span>
+             
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      />
+      <p
+        class="post_text"
+      />
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should render test have image prop in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OnePost component should test have comments prop in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post"
+  >
+    <div
+      class="tag"
+    >
+      <div
+        class="tag_tag"
+      >
+        <div
+          class="tag_title"
+        >
+          Теги:
+        </div>
+        <div
+          class="tag_name"
+        >
+          <span>
+            Tag1 
+          </span>
+          <span>
+            Tag2 
+          </span>
+        </div>
+      </div>
+      <div
+        class="tag_name"
+      >
+        Создан: 
+        <a>
+          <button
+            class="goto_user"
+          >
+            login
+          </button>
+        </a>
+        20.20.2050
+      </div>
+    </div>
+    <div
+      class="post_content"
+    >
+      <h2
+        class="post_title"
+      >
+        Article1
+      </h2>
+      <p
+        class="post_text"
+      >
+        Text
+      </p>
+    </div>
+    <a>
+      <button
+        class="button"
+      >
+        Читать далее
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
 exports[`Test OnePost component Render test correct props in snapshot 1`] = `
 <DocumentFragment>
   <div
@@ -132,139 +1688,7 @@ exports[`Test OnePost component Render test have comments prop in snapshot 1`] =
 </DocumentFragment>
 `;
 
-exports[`Test OnePost component Render test have commet prop in snapshot 1`] = `
-<DocumentFragment>
-  <div
-    class="post"
-  >
-    <div
-      class="tag"
-    >
-      <div
-        class="tag_tag"
-      >
-        <div
-          class="tag_title"
-        >
-          Теги:
-        </div>
-        <div
-          class="tag_name"
-        >
-          <span>
-            Tag1 
-          </span>
-          <span>
-            Tag2 
-          </span>
-        </div>
-      </div>
-      <div
-        class="tag_name"
-      >
-        Создан: 
-        <a>
-          <button
-            class="goto_user"
-          >
-            login
-          </button>
-        </a>
-        20.20.2050
-      </div>
-    </div>
-    <div
-      class="post_content"
-    >
-      <h2
-        class="post_title"
-      >
-        Article1
-      </h2>
-      <p
-        class="post_text"
-      >
-        Text
-      </p>
-    </div>
-    <a>
-      <button
-        class="button"
-      >
-        Читать далее
-      </button>
-    </a>
-  </div>
-</DocumentFragment>
-`;
-
 exports[`Test OnePost component Render test have image prop in snapshot 1`] = `
-<DocumentFragment>
-  <div
-    class="post"
-  >
-    <div
-      class="tag"
-    >
-      <div
-        class="tag_tag"
-      >
-        <div
-          class="tag_title"
-        >
-          Теги:
-        </div>
-        <div
-          class="tag_name"
-        >
-          <span>
-            Tag1 
-          </span>
-          <span>
-            Tag2 
-          </span>
-        </div>
-      </div>
-      <div
-        class="tag_name"
-      >
-        Создан: 
-        <a>
-          <button
-            class="goto_user"
-          >
-            login
-          </button>
-        </a>
-        20.20.2050
-      </div>
-    </div>
-    <div
-      class="post_content"
-    >
-      <h2
-        class="post_title"
-      >
-        Article1
-      </h2>
-      <p
-        class="post_text"
-      >
-        Text
-      </p>
-    </div>
-    <a>
-      <button
-        class="button"
-      >
-        Читать далее
-      </button>
-    </a>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`Test OnePost component Render test have image prop in snapshot 2`] = `
 <DocumentFragment>
   <div
     class="post"
